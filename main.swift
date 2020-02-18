@@ -20,7 +20,7 @@ func writeItem(_ item: URL,_ lastOrNotOfItem: Bool) {
         str += i ? "    " : " │ "
     }
     
-    str += (lastOrNotOfItem ? " └ " : " ├ ") + item.lastPathComponent + "\n"
+    str += (lastOrNotOfItem ? " └ " : " ├ ") + item.lastPathComponent
     print(str)
 }
 
